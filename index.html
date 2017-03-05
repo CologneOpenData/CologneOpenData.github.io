@@ -4,10 +4,15 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <h1>About</h1>
+        <p><strong>Cologen Open Data</strong> is a project for implementations
+        of the city of Cologne (GER) open data API.</br>
+        It was initiated at the Hack Your City event in Cologne on 5th March 2017.</p>
+    <h1>Links</h1>
+        <li><a href="https://www.offenedaten-koeln.de">Website</a>
+            of the city of Cologne's open data program</li>
+        <li><a href="https://www.offenedaten-koeln.de/blog/dkan-api-howto">API description</a>
+            of the city of Cologne's open data program</li>
+        <li><a href="https://github.com/CologneOpenData/">Repositories</a>
+            of the Cologne Open Data project</li>
 </div>
